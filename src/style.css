@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #0b2434;
+  padding: 20px;
+  font-family: 'Karla', sans-serif;
+}
+#root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  border-radius: 10px;
+  min-height: 420px;
+  width: 500px;
+  max-width: 800px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 40px;
+  margin: 0;
+}
+
+.instructions {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+}
+.dice--holder {
+  display: grid;
+  grid-template: auto auto / repeat(3, 1fr);
+  gap: 20px;
+}
+
+.dice--item {
+  height: 60px;
+  width: 60px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dice--num {
+  font-size: 2rem;
+}
+
+.roll--btn {
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: 1, 2rem;
+  color: white;
+  padding: 14px;
+  margin-top: 20px;
+  background: #5035ff;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.roll--btn:focus {
+  outline: none;
+}
+
+.roll--btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
