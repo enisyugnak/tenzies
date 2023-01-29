@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Dice css
+
+[Dice css] (https://dev.to/ekeijl/creating-dice-using-css-grid-j4)
+
 ## Available Scripts
 
 In the project directory, you can run:
