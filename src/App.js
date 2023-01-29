@@ -1,8 +1,8 @@
 import React from 'react';
 import { nanoid } from 'nanoid';
 import './style.css';
-import Die from './components/Die';
 import Confetti from 'react-confetti';
+import Dice from './components/Dice';
 
 /**
  * Extra Credit Challenge:
@@ -112,7 +112,7 @@ function App() {
   /** SETUP - put the dice components on the stage */
 
   const elements = random.map((dice) => (
-    <Die
+    <Dice
       key={dice.id}
       value={dice.value}
       isHeld={dice.isHeld}
